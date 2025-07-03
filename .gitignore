@@ -1,0 +1,17 @@
+# Environnements virtuels
+.venv/
+my-dbt-env/
+
+# DBT
+target/
+dbt_modules/
+
+# Caches Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+
+# Fichiers système
+.DS_Store
