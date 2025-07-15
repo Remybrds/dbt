@@ -4,6 +4,7 @@ models:
     - name: stg_order
       columns:
         - name: id
-        - name: customer
-        - name: ordered_at
+        - name: order_date
+          tests : 
+          - not_null
         - name: store_id
